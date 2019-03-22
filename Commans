@@ -3,3 +3,4 @@ curl -sS https://getcomposer.org/installer ( AWS SDK for PHP install by using co
 php composer.phar require aws/aws-sdk-php
 
 aws dynamodb get-item --table-name ProductCatalog --key '{"Id":{"N":"205"}}'
+aws dynamodb delete-table --table-name MusicCollection
